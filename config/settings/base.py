@@ -94,6 +94,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "anti_scam_165.users",
     # Your stuff: custom apps go here
+    "anti_scam_165.chat",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
