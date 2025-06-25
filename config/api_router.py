@@ -13,7 +13,8 @@ router.register("users", UserViewSet)
 app_name = "api"
 urlpatterns = router.urls
 
-# Include chat app API endpoints
+# Include app API endpoints
 urlpatterns += [
     path("", include("anti_scam_165.chat.api.urls", namespace="chat")),
+    path("", include("anti_scam_165.articles.api.urls", namespace="articles")),
 ]
